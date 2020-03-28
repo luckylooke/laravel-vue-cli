@@ -1,0 +1,25 @@
+/* env */
+$ui-imagesPath: '../assets/images/';
+$ui-fontsPath: '../assets/fonts/';
+
+@font-face {
+  font-family: BebasNeue;
+  src: url('#{$ui-fontsPath}BebasNeue-Web.eot');
+  src: url('#{$ui-fontsPath}BebasNeue-Web.eot?#iefix')
+      format('embedded-opentype'),
+    url('#{$ui-fontsPath}BebasNeue-Web.woff2') format('woff2'),
+    url('#{$ui-fontsPath}BebasNeue-Web.woff') format('woff'),
+    url('#{$ui-fontsPath}BebasNeue-Web.ttf') format('truetype');
+  /* url('#{$ui-fontsPath}BebasNeue-Web.svg#BebasNeue-Web') format('svg')}'); */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+$ui-font-family-generic: Arial, Helvetica, sans-serif;
+$ui-font-family-base: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI',
+  Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+  'Segoe UI Symbol';
+$ui-font-family-secondary: BebasNeue, Helvetica, Arial, sans-serif;
+
+$ui-logo-bg: url('#{$ui-imagesPath}logo.png');

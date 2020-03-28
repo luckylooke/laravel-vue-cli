@@ -13,7 +13,7 @@
 </template>
 
 <script lang="ts">
-import { Component, Prop, Vue } from 'vue-property-decorator';
+import { Component, Prop, Vue } from "vue-property-decorator";
 
 @Component
 export default class HelloWorld extends Vue {
@@ -30,6 +30,6 @@ export default class HelloWorld extends Vue {
   font-family: $ui-font-family-secondary;
 }
 .background-logo {
-  background: $ws-logo-bg;
+  background: $ui-logo-bg;
 }
 </style>
