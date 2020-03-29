@@ -9,6 +9,7 @@
     <p class="component-system-font">This text should be system font</p>
     <h3>UI class with background image used from lib</h3>
     <div class="background-logo"></div>
+    <div class="error-from-common"></div>
   </div>
 </template>
 
@@ -28,6 +29,12 @@ export default class HelloWorld extends Vue {
 }
 .component-secondary-font {
   font-family: $ui-font-family-secondary;
+}
+.error-from-common {
+  min-width: 700px;
+  min-height: 300px;
+  border: 1px solid red;
+  margin: 16px;
 }
 .background-logo {
   background: $ui-logo-bg;

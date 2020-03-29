@@ -1,0 +1,13 @@
+.error-from-common {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  max-width: 1000px;
+  margin: 0 auto;
+
+  /* relative to host, will be served from public directory by laravel */
+  background: url('/img/error-bg.svg') right center no-repeat;
+  background-size: 60% auto;
+}
