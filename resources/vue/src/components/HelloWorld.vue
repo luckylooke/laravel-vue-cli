@@ -7,9 +7,10 @@
     <h3>Local usage of ui vars</h3>
     <p class="component-secondary-font">This text should be in bebas font</p>
     <p class="component-system-font">This text should be system font</p>
-    <h3>UI class with background image used from lib</h3>
-    <div class="background-logo"></div>
-    <div class="error-from-common"></div>
+    <h3>Component with background image used from lib</h3>
+    <div class="background-logo">here</div>
+    <h3>Component with background image used from common files shared between Laravel and Vue</h3>
+    <div class="error-from-common">here</div>
   </div>
 </template>
 
@@ -31,10 +32,11 @@ export default class HelloWorld extends Vue {
   font-family: $ui-font-family-secondary;
 }
 .error-from-common {
-  min-width: 700px;
-  min-height: 300px;
+  min-width: 70px;
+  min-height: 200px;
   border: 1px solid red;
   margin: 16px;
+  padding: 16px;
 }
 .background-logo {
   background: $ui-logo-bg;
