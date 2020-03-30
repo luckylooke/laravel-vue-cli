@@ -66,9 +66,9 @@ module.exports = {
   css: {
     loaderOptions: {
       // source: https://stackoverflow.com/a/51475617/861615
-      css: {
-        url: false
-      },
+      // css: {
+      //   url: false
+      // },
       scss: {
         sassOptions: {
           includePaths: [
