@@ -1,1 +1,8 @@
 @import './ui-lib_vars';
+
+.system-font {
+  font-family: $ui-font-family-base;
+}
+.secondary-font {
+  font-family: $ui-font-family-secondary;
+}
